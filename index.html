@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <link rel="shortcut icon" href="/n0twallet/assets/notcycle-4a241d91.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@1&display=swap" rel="stylesheet">
     <meta property="og:site_name" content="NOTWallet">
     <title>NOTWallet</title>
@@ -13,6 +14,10 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      let tg = window.Telegram.WebApp;
+      tg.expand();
+    </script>
     
   </body>
 </html>
