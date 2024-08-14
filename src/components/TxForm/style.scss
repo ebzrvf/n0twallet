@@ -1,0 +1,135 @@
+.send-tx-form {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+  h3 {
+    color: white;
+    opacity: 0.8;
+    font-size: 28px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
+  }
+
+  .connectButton {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+.send-tx-form .input-group {
+    margin-bottom: 1rem;
+}
+
+.labelAddress, .labelAmount {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.madeby {
+    padding-top: 270px;
+    color: white;
+}
+
+.styled-input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.styled-input:focus {
+  border-color: #ffc400;
+  box-shadow: 0 0 5px #ffc400;
+  outline: none;
+}
+
+.crntwlt {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.appInfo {
+    color: white;
+    font-weight: 400;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.madeby a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.currentWalletAddress {
+    color: white;
+    font-weight: 400;
+    font-family: 'Clash Display', sans-serif;
+    padding-top: 25px;
+}
+
+  > div:nth-child(2) {
+    width: 100%;
+
+    span {
+      word-break: break-word;
+    }
+  }
+
+  .copyLink {
+    border: none;
+    padding: 7px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    background-color: rgba(54, 54, 54, 0.91);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: 'Clash Display', sans-serif;
+    transition: transform 0.1s ease-in-out;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    &:active {
+      transform: scale(0.97);
+    }
+  }
+  > button {
+    border: none;
+    padding: 7px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgba(54, 54, 54, 0.91);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: 'Clash Display', sans-serif;
+    transition: transform 0.1s ease-in-out;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    &:active {
+      transform: scale(0.97);
+    }
+  }
+}

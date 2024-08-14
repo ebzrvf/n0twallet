@@ -1,0 +1,19 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.973);;
+  font-family: 'Clash Display', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Clash Display', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
