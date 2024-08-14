@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: 'docs'
   },
   // @ts-ignore
-  base: process.env.GH_PAGES ? '/notwallet/' : './',
+  base: process.env.GH_PAGES ? '/n0twallet/' : './',
   server: {
     fs: {
       allow: ['../sdk', './'],
